@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ClientCounter</string>
+    <string name="MenuTitle">Wpisz dopuszczalną liczbę osób</string>
+    <string name="Count">Licz osoby</string>
+    <string name="Minus">-</string>
+    <string name="Plus">+</string>
+    <string name="CountTitle">Ilość osób w pomieszczeniu</string>
+    <string name="Back">Wróć</string>
 </resources>
