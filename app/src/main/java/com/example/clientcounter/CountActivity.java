@@ -32,7 +32,7 @@ public class CountActivity extends AppCompatActivity {
             now++;
             countText.setText(now + "/" + people);
         }else{
-            Toast.makeText(getApplicationContext(),"Limit osiągnięty",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Limit klientów osiągnięty",Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -40,8 +40,12 @@ public class CountActivity extends AppCompatActivity {
         if(now>0) {
             now--;
             countText.setText(now + "/" + people);
+        }else{
+            Toast.makeText(getApplicationContext(),"Sklep pusty",Toast.LENGTH_SHORT).show();
         }
     }
 
-
+    public void backButtonClick(View v) {
+        finish();
+    }
 }
