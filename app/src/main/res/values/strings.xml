@@ -6,4 +6,5 @@
     <string name="Plus">+</string>
     <string name="CountTitle">Ilość osób w pomieszczeniu</string>
     <string name="Back">Wróć</string>
+    <string name="Counter">TextView</string>
 </resources>
