@@ -13,7 +13,7 @@ public class MenuActivity extends AppCompatActivity {
 
     Button buttonCount;
     EditText editTextInput;
-    int people=5;
+    int people=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

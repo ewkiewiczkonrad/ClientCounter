@@ -22,7 +22,7 @@ public class CountActivity extends AppCompatActivity {
         countText = findViewById(R.id.countText);
 
         Intent intent = getIntent();
-        people= intent.getIntExtra("licz",0);
+        people= intent.getIntExtra("licz",1);
 
         countText.setText(now+"/"+people);
     }
