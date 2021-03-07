@@ -27,7 +27,6 @@ public class MenuActivity extends AppCompatActivity {
                 try {
                     people = Integer.parseInt(editTextInput.getText().toString());
                 }catch(Exception e){
-                    Toast.makeText(getApplicationContext(),"Podaj liczbe klientów",Toast.LENGTH_SHORT).show();
                 }
                 if(people>0) {
                     Intent intent = new Intent(MenuActivity.this, CountActivity.class);
